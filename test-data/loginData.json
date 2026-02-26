@@ -1,0 +1,21 @@
+[
+  {
+    "name": "valid user",
+    "userId": "TapsysMaker",
+    "password": "Hammad@123",
+    "shouldPass": true
+  },
+  {
+    "name": "wrong password",
+    "userId": "TapsysMaker",
+    "password": "Wrong@123",
+    "shouldPass": false
+  },
+  {
+    "name": "invalid user",
+    "userId": "NoSuchUser",
+    "password": "SomePass@123",
+    "shouldPass": false
+  }
+]
+

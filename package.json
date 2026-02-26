@@ -1,0 +1,25 @@
+{
+  "name": "test-ai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:js": "npx playwright test -c playwright.config.js",
+    "test:ts": "npx playwright test -c playwright.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "allure-commandline": "^2.37.0",
+    "allure-playwright": "^3.5.0",
+    "@types/node": "^22.13.1",
+    "typescript": "^5.8.2"
+  }
+}
